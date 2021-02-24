@@ -1,0 +1,471 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 5px;
+}
+
+.middle-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+}
+
+.subscribe-btn {
+  border: none;
+  font-size: 11px;
+  background-color: rgb(53, 136, 163);
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ads {
+  background-color: #eee;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 8px;
+  padding-top: 10px;
+  margin: 20px 0;
+}
+
+h1 {
+  width: 45%;
+  font-size: 30px;
+  margin: auto;
+  font-style: italic;
+  margin-top: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  padding-bottom: 15px;
+}
+
+.icons {
+  display: flex;
+  width: 20%;
+  margin: 1% 0 2% 27%;
+  justify-content: space-around;
+}
+
+.social {
+  font-size: 12px;
+  color: black;
+  border: 0.5px solid rgba(0, 0, 0, 0.116);
+  border-radius: 50%;
+  background-color: rgba(211, 211, 211, 0.589);
+  padding: 5px;
+}
+
+.astronaut-img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.astronaut {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.caption {
+  font-size: 12px;
+  width: 85%;
+  color: rgba(0, 0, 0, 0.705);
+  margin-top: 5px;
+  margin-bottom: 5%;
+}
+
+.author-one a {
+  text-decoration: none;
+  color: black;
+}
+
+.by-author-name {
+  color: black;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.first-author {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.author-one {
+  width: 20%;
+  position: relative;
+  left: 27.5%;
+  text-align: left;
+  justify-self: center;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.63);
+  font-size: 11px;
+}
+
+.paragraph-set p,
+.paragraph-set h4 {
+  width: 45%;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.paragraph-set a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.right-pick {
+  width: 60px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.right-editors-pick {
+  width: 170px;
+  float: right;
+  margin: 4% 7% 0 0;
+  font-size: 14px;
+}
+
+.right-editors-pick h5 {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.288);
+  padding-bottom: 8px;
+}
+
+.the-pick {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pick-text a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.897);
+}
+
+.reaching-back {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.subs-times {
+  text-align: center;
+}
+
+.standfordprof {
+  width: 100%;
+  height: 250px;
+  border-radius: 1px;
+}
+
+.standfordprof-video {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: auto;
+  margin: 30px auto;
+}
+
+.inflation-theory-section h4 {
+  font-size: 14px;
+  margin-bottom: -1%;
+}
+
+.inflation-theory-section {
+  width: 70%;
+  margin: auto;
+  font-size: 11px;
+}
+
+.inflation-theory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.inflation-img {
+  width: 150px;
+  height: 100px;
+}
+
+.two-authors {
+  font-size: 11px;
+  margin: 3% 0 4% 15%;
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.two-authors span {
+  border-top: 0.3px solid rgba(0, 0, 0, 0.562);
+  padding-top: 10px;
+}
+
+.telescope {
+  width: 45%;
+  margin: 30px auto;
+}
+
+.telescope-img {
+  width: 100%;
+}
+
+.more-details {
+  font-size: 10px;
+  width: 45%;
+  margin: 20px auto;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+.more-in-space-section {
+  width: 59%;
+  margin-left: 6%;
+  margin-top: 5%;
+  font-size: 14px;
+  border-top: 1px solid black;
+}
+
+.space-astronomy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px 10px;
+}
+
+.space-astronomy a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.781);
+  font-weight: bold;
+}
+
+.more-in-space-section span {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.445);
+  margin-top: 10px;
+}
+
+.space-images {
+  width: 200px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.btn-icons {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.comments-button {
+  border: none;
+  padding: 5px;
+  background-color: rgb(53, 136, 163);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  width: 250px;
+}
+
+.icons-bottom {
+  float: right;
+  font-size: 12px;
+}
+
+.icons-bottom a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons {
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: rgba(211, 211, 211, 0.589);
+  padding: 5px;
+}
+
+.most-popular a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.699);
+  font-weight: bold;
+}
+
+.most-popular {
+  float: right;
+  width: 25%;
+  font-size: 14px;
+  margin-right: 8%;
+  margin-top: 5%;
+  border-top: 1px solid black;
+}
+
+.popular-topic {
+  border-top: 0.3px solid rgba(0, 0, 0, 0.349);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.editors-pick-lower-section {
+  width: 59%;
+  margin: 2% 0 5% 6%;
+  border-top: 1px solid black;
+  font-size: 13px;
+}
+
+.editors-pick-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lower-editor {
+  width: 200px;
+  border-radius: 2px;
+}
+
+.editors-pick-lower-section a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.781);
+  font-weight: bold;
+}
+
+.editors-pick-lower-section span {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.445);
+  margin-top: 10px;
+}
+
+.footer-logo {
+  margin: 2% 5% 1% 7.5%;
+  border-top: 0.1px double rgba(0, 0, 0, 0.082);
+  padding-top: 10px;
+  border-width: 4px;
+}
+
+.footer-logo a {
+  float: right;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.288);
+  font-size: 10px;
+}
+
+.lower-logo {
+  width: 150px;
+  height: 20px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+ul li {
+  list-style: none;
+}
+
+.footer-top a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-top {
+  display: flex;
+  font-size: 11px;
+  justify-content: space-evenly;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.footer-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.extras {
+  border-left: 0.5px solid rgba(0, 0, 0, 0.11);
+  padding-left: 10px;
+}
+
+.extras li:nth-child(8) {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.11);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.main-extras {
+  font-weight: bolder;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 0;
+}
+
+.other-extras {
+  padding-left: 0;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.footer-bottom {
+  font-size: 9px;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.075);
+  padding-top: 10px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 7% 4% 7%;
+}
+
+.fas:hover {
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.space-n-cosmos:hover {
+  text-decoration: underline;
+}
+
+.social:hover,
+.social-icons:hover {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-radius: 50%;
+}
