@@ -91,7 +91,7 @@ h1 {
 .social {
   font-size: 12px;
   color: black;
-  border: 0.5 solid rgba(0, 0, 0, 0.116);
+  border: 0.5px solid rgba(0, 0, 0, 0.116);
   border-radius: 50%;
   background-color: rgba(211, 211, 211, 0.589);
   padding: 5px;
@@ -156,6 +156,39 @@ h1 {
 .paragraph-set a {
   text-decoration: none;
   color: cornflowerblue;
+}
+
+.right-pick {
+  width: 60px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.right-editors-pick {
+  width: 170px;
+  float: right;
+  margin: 4% 7% 0 0;
+  font-size: 14px;
+}
+
+.right-editors-pick h5 {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.288);
+  padding-bottom: 8px;
+}
+
+.the-pick {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.pick-text a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.897);
+}
+
+.reaching-back {
+  width: 45%;
+  margin: auto;
 }
 
 .subs-times {
@@ -376,8 +409,10 @@ ul li {
   line-height: 20px;
 }
 
-.footer-top strong {
+.footer-top h5 {
   font-size: 12px;
+  margin-top: -1%;
+  margin-bottom: -1%;
 }
 
 .extras {
@@ -385,7 +420,7 @@ ul li {
   padding-left: 10px;
 }
 
-.extras li:nth-child(5) {
+.other-extras li:nth-child(3) {
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.11);
   margin-bottom: 10px;
   padding-bottom: 5px;
@@ -396,15 +431,16 @@ ul li {
   margin-bottom: 10px;
   font-size: 13px;
   line-height: 23px;
+  padding-left: 0;
+}
+
+.other-extras {
+  padding-left: 0;
 }
 
 .footer-bottom a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.699);
-}
-
-.footer-bottom ul li {
-  margin-left: 10px;
 }
 
 .footer-bottom {
