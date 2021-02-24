@@ -130,7 +130,7 @@ h1 {
 }
 
 .first-author {
-border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
 }
 
 .author-one {
@@ -151,7 +151,6 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   width: 45%;
   margin: 10px auto;
   font-size: 16px;
-  
 }
 
 .paragraph-set a {
@@ -303,7 +302,6 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   margin-right: 8%;
   margin-top: 5%;
   border-top: 1px solid black;
-
 }
 
 .popular-topic {
@@ -362,7 +360,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   align-self: flex-start;
 }
 
-.footer-top li {
+ul li {
   list-style: none;
 }
 
@@ -400,23 +398,23 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   line-height: 23px;
 }
 
-.footer-bottom li {
-  list-style: none;
-  margin-right: 10px;
-}
-
 .footer-bottom a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.699);
 }
 
+.footer-bottom ul li {
+  margin-left: 10px;
+}
+
 .footer-bottom {
-  display: flex;
   font-size: 9px;
-  justify-content: center;
   border-top: 0.5px solid rgba(0, 0, 0, 0.075);
   padding-top: 10px;
-  margin: 2% 7% 4% 7%;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 7% 4% 7%;
 }
 
 .fas:hover {

@@ -4,7 +4,7 @@ I did the floating and positioning elements project as directed by the Odin Proj
 
 ![screenshot](./images/screencapture-127-0-0-1-5500-index-html-2021-02-23-05_04_30.png)
 
-this was a project that provided me with lots of learning experiences. Right from using flex box ,grid, floats and the positoning offsets. I kinda had not really understood how to go about them. the project required me to cloned almost the exact page of a New York Times Article.
+This is a project that provided me with lots of learning experiences. Right from using flex box ,grid, floats and the positoning offsets. I kinda had not really understood how to go about them but finally got it. The project required me to clone an article page of the New York Times.
 ## Built with
 
 - HTML
